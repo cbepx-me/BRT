@@ -1,0 +1,28 @@
+{
+  "systems": [
+    {
+      "menu": "menu.back",
+      "menu_help": "menu.back.help",
+      "options": ["menu.sys", "menu.emu", "menu.save", "menu.theme"],
+      "opt_help": [
+        "menu.back.opt.sys",
+        "menu.back.opt.emu",
+        "menu.back.opt.save",
+        "menu.back.opt.theme"
+      ],
+      "operations": ["back:sys", "back:emu", "back:save", "back:theme"]
+    },
+    {
+      "menu": "menu.restore",
+      "menu_help": "menu.restore.help",
+      "options": ["menu.sys", "menu.emu", "menu.save", "menu.theme"],
+      "opt_help": [
+        "menu.restore.opt.sys",
+        "menu.restore.opt.emu",
+        "menu.restore.opt.save",
+        "menu.restore.opt.theme"
+      ],
+      "operations": ["restore:sys", "restore:emu", "restore:save", "restore:theme"]
+    }
+  ]
+}
